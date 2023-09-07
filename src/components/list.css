@@ -1,0 +1,135 @@
+.header {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .headerContainer {
+    width: 100%;
+    max-width: 90%;
+    margin: 30px 0px -25px 0px;
+  }
+  
+  .headerContainer.listMode {
+    margin: 20px 0px 0px 0px;
+  }
+  
+
+  .headerList {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 20px;
+    margin-top: -10px;
+  }
+  
+  .headerListItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid grey; /* Set the initial border to grey */
+    padding: 10px;
+    border-radius: 50px;
+    transition: border-radius 0.3s; /* Add a transition for smooth animation */
+}
+
+.headerListItem:hover{
+    border: 1.5px solid blue;
+}
+  
+  .headerListItem.active {
+    border: 1px solid blue;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+  .headerDesc {
+    margin: 20px 0px;
+  }
+  
+  
+
+ 
+  
+  
+  
+  /* Update your list.css file with the following styles for the cart */
+
+/* Cart button */
+.cart-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+/* Cart content */
+.cart-content {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 300px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Cart items */
+.cart-items {
+  padding: 10px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cart-item span {
+  font-weight: bold;
+}
+
+.cart-item button {
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.cart-item button:hover {
+  background-color: #0056b3;
+}
+
+/* Cart actions (Close and Order buttons) */
+.cart-actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.cart-close-button,
+.cart-order-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.cart-close-button:hover,
+.cart-order-button:hover {
+  background-color: #0056b3;
+}

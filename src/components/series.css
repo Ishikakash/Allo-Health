@@ -1,0 +1,106 @@
+/* series.css */
+
+.series {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 5px;
+    padding: -5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding-left: 150px;
+  }
+
+  .img{
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 250px;
+    width: 350px;
+  }
+
+  .drinkSelection{
+    padding-bottom: 100px;
+    padding-left: 100px;
+  }
+
+   /* .drink{
+    width: 50px;
+    height: 50px; 
+    hover:  blue;
+    cursor: pointer;
+  }  */
+  .drink {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+  
+  .drinkImg{
+    width: 65px;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    padding: 10px;
+  }
+  
+  .productImage {
+    flex: 1;
+  }
+  
+  .productImage img {
+    width: 10; /* Make the product image fill its container */
+}
+  
+  .productDescription {
+    flex: 2;
+    padding: 0 80px;
+    padding-top: 0px;
+    padding-bottom: 0px;    
+  }
+  
+  .productDescription h2 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  .drinkSelection {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .drink {
+    flex: 0 0 calc(33.33% - 10px);
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .drink img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
